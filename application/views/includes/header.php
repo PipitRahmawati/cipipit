@@ -44,16 +44,17 @@
     if(isset($_GET['layout']) && $_GET['layout']=='free' ){
     }else{
   ?>
-  <body class="skin-blue sidebar-mini">
-    <div class="wrapper">
+  <body class="skin-green-light sidebar-mini">
+
+      <div class="wrapper">
       
       <header class="main-header">
         <!-- Logo -->
         <a href="<?php echo base_url(); ?>" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>CI</b>AS</span>
+          <span class="logo-mini"><b>Di</b>Si</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>Adminduk</b>AS</span>
+          <span class="logo-lg"><b>Digitalisasi</b>Arsip</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -185,7 +186,7 @@
                 <span>Biodata Adminduk</span>
               </a>
             </li>
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="<?php echo base_url(); ?>aksi_upload/datang">
                 <i class="fa fa-files-o"></i>
                 <span>Mutasi Datang</span>
@@ -196,7 +197,7 @@
                 <i class="fa fa-files-o"></i>
                 <span>Mutasi Keluar</span>
               </a>
-            </li>
+            </li> -->
             <li class="treeview">
               <a href="<?php echo base_url(); ?>DaftarLaporan">
                 <i class="fa fa-files-o"></i>
